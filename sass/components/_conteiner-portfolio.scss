@@ -1,0 +1,63 @@
+.conteiner-none {
+  display: none;
+}
+
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.portfolio-conteiner {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filters__list {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.filters__list > .filters__item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.filters__list .filters__button {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 11px 22px;
+}
+
+.filters__button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  background: $background-section-four;
+  color: $black-text;
+  border-radius: 4px;
+  transition-property: color, background-color, box-shadow;
+  transition-duration: $time;
+  transition-timing-function: $cubic;
+}
+
+.filters__item .filters__button:hover,
+.filters__item .filters__button:focus {
+  color: $white-text;
+  background: $blue-text;
+  cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition-property: color, background-color, box-shadow;
+  transition-duration: $time;
+  transition-timing-function: $cubic;
+}
+
+.filters__link:focus .filters__button {
+  background-color: $blue-text;
+}

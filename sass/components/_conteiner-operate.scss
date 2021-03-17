@@ -1,0 +1,55 @@
+.operate__container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.operate__text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: $black-text;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.operate__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+
+  margin-right: 0;
+}
+
+.operate__item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-right: 30px;
+
+  position: relative;
+}
+
+.operate__item .operate__overlay {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $white-text;
+  background-color: $label;
+}

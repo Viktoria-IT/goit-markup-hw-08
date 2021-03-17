@@ -1,0 +1,95 @@
+.portfolio__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.portfolio__item {
+  border: 1px solid $border-card;
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 3 - 30px);
+  text-decoration: none;
+
+  transition-property: box-shadow;
+  transition-duration: $time;
+  transition-timing-function: $cubic;
+}
+
+.portfolio__item:hover,
+.portfolio__item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  transform: translate(0);
+}
+
+.portfolio__link {
+  text-decoration: none;
+}
+
+.portfolio__tumb {
+  position: relative;
+  width: 368px;
+  height: 294px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $hover-overlay;
+  overflow: hidden;
+}
+
+.portfolio__link:hover .portfolio__box,
+.portfolio__link:focus .portfolio__box {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.portfolio__box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $hover-overlay;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio__overlay {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: $white-text;
+  padding: 63px 24px;
+}
+
+.portfolio__pages {
+  padding: 20px 24px;
+}
+
+.portfolio__info {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: $black-text;
+  background: $white-list;
+}
+
+.portfolio__finger {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: $pepel-text;
+  background: $white-list;
+
+  margin-top: 4px;
+}
