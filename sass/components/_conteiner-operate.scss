@@ -1,11 +1,12 @@
 .operate__container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  margin-left: auto;
-  margin-right: auto;
+  display: none;
+
+  @media screen and (min-width: $desktop) {
+    width: 1200px;
+    padding: 94px 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .operate__text {
