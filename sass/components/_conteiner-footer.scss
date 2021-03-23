@@ -2,6 +2,19 @@
   background: $background-section-one;
 }
 
+.conteiner__footer {
+  @media screen and (min-width: $tablet) {  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  @media screen and (min-width: $desktop) {
+    display: flex;
+    align-items: baseline;
+  }
+}
+
 .conteiner__info {
   display: flex;
   align-items: baseline;
