@@ -64,9 +64,25 @@
   }
 }
 
-@media (min-widht: $tablet) and (max-width: $desktop) {
-  .navigation-list .navigation__links::after,
-  .navigation-list .navigation__current::after {
+.navigation-list .navigation__links::after,
+.navigation-list .navigation__current::after {
+  @media screen and (min-width: $tablet) {
+    content: ' ';
+
+    position: absolute;
+    top: 80px;
+    left: 0;
+
+    display: block;
+    width: 100%;
+    height: 4px;
+
+    background: $blue-text;
+
+    border-radius: 2px;
+  }
+
+  @media screen and (min-widht: $desktop) {
     content: '';
     display: flex;
     width: 100%;

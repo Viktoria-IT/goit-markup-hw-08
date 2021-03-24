@@ -39,14 +39,12 @@
 }
 
 .feature__item {
-  flex-basis: calc(100% / 2 - 30px);
+  flex-basis: calc(100% / 4 - 30px);
   margin-right: 30px;
 
   @media screen and (min-width: $desktop) {
-    .feature__item {
-      flex-basis: calc(100% / 4 - 30px);
-      margin-right: 30px;
-    }
+    width: calc((100% / 4 - 30px) / 2);
+    margin-right: 30px;
   }
 }
 
