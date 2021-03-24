@@ -3,8 +3,11 @@
 }
 
 .portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 60px 0;
+
+  @media screen and (min-width: $desktop) {
+    padding: 94px 15px;
+  }
 }
 
 .portfolio-conteiner {
@@ -17,8 +20,23 @@
 
 .filters__list {
   display: flex;
-  margin-bottom: 50px;
-  justify-content: center;
+  flex-wrap: wrap;
+
+  @media screen and (min-width: $tablet) {
+    @include flexCenter;
+
+    margin-bottom: 15px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+}
+
+.filters__item {
+  margin-bottom: 15px;
 }
 
 .filters__list > .filters__item:not(:last-child) {

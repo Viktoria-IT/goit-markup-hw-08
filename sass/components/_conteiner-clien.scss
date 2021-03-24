@@ -1,36 +1,56 @@
 .client-container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 94px;
-  padding-bottom: 80px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 60px 0;
+
+  @media screen and (min-width: $desktop) {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 94px;
+    padding-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .title {
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 28px;
+  line-height: 33px;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: $desktop) {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 50px;
+  }
 }
 
 .client__list {
-  padding: 0;
-  list-style: none;
   display: flex;
-  margin: 0 0 0 -30px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  @media screen and (min-width: $desktop) {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin: 0 0 0 -30px;
+  }
+
+  @media screen and (max-width: 450px) {
+    justify-content: center;
+  }
 }
 
 .client__link {
   text-decoration: none;
-  margin-left: 30px;
+  margin-bottom: 30px;
   border: 1px solid $icon-cocial;
   border-radius: 4px;
-  width: 170px;
+  width: 210px;
   height: 90px;
   display: flex;
   align-items: center;
@@ -43,6 +63,16 @@
   &:focus {
     border: 1px solid $blue-text;
     border-radius: 4px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 170px;
+
+    margin-bottom: 0px;
+
+    &:not(:first-child) {
+      margin-left: 30px;
+    }
   }
 }
 
