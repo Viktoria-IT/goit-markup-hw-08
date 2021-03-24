@@ -1,6 +1,4 @@
 .hero {
-  background: $background-section-one;
-
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -15,6 +13,7 @@
   height: 400px;
 
   text-align: center;
+  background: $background-section-one;
 
   background-image: linear-gradient(
       to right,

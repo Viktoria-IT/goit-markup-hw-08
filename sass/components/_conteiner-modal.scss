@@ -12,6 +12,7 @@
 .backdrop__hidden {
   opacity: 0;
   pointer-events: none;
+  visibility: hidden;
 }
 
 .backdrop__hidden .modal {
@@ -28,7 +29,7 @@
   left: 50%;
 
   min-width: 450px;
-  max-height: 100vw;
+  // max-height: 100vw;
   padding: 40px;
   margin: 8px;
   background-color: $white-list;
@@ -41,11 +42,11 @@
   border-radius: 4px;
 
   @media screen and (max-width: 479px) {
-    min-width: 95%;
+    min-width: 609px;
   }
 
   @media screen and (min-width: $desktop) {
-    max-width: 528px;
+    max-width: 581px;
   }
 }
 
@@ -88,7 +89,7 @@
   flex-direction: column;
 }
 
-.form-info__label {
+.form-info__value {
   margin-bottom: 4px;
   color: $pepel-text;
   font-style: normal;
