@@ -420,7 +420,6 @@ a {
     @include flexCenter;
   }
 }
-}
 
 .header__link:focus,
 .header__link:hover {
@@ -1025,7 +1024,7 @@ a {
   display: none;
 
   @media screen and (min-width: $desktop) {
-   width: 1200px;
+    width: 1200px;
     padding: 94px 15px;
     margin-left: auto;
     margin-right: auto;
@@ -1085,7 +1084,6 @@ a {
 }
 
 .container-team {
-  
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 60px;
@@ -1159,7 +1157,7 @@ a {
 }
 
 .team__tumb {
-    max-height: 622px;
+  max-height: 622px;
 
   & img {
     width: 100%;
@@ -1309,7 +1307,6 @@ a {
 }
 
 .client__list {
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -1349,16 +1346,15 @@ a {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    @media screen and (min-width: $desktop) {
-      width: 170px;
+  @media screen and (min-width: $desktop) {
+    width: 170px;
 
-      margin-bottom: 0px;
+    margin-bottom: 0px;
 
-      &:not(:first-child) {
-        margin-left: 30px;
-      }
+    &:not(:first-child) {
+      margin-left: 30px;
     }
-
+  }
 }
 
 .client__link:hover,
@@ -1391,7 +1387,7 @@ a {
   display: -ms-flexbox; */
   -webkit-box-align: baseline;
   -ms-flex-align: baseline;
- 
+
   padding: 60px 15px;
   text-align: center;
 
@@ -1654,7 +1650,7 @@ a {
 }
 
 .portfolio {
- padding: 60px 0;
+  padding: 60px 0;
 
   @media screen and (min-width: $desktop) {
     padding: 94px 15px;
@@ -1749,7 +1745,7 @@ a {
   @media screen and (min-width: $tablet) {
     display: flex;
     flex-wrap: wrap;
-    
+
     margin-left: calc(-1 * var(--item-set-gap));
     margin-top: calc(-1 * var(--item-set-gap));
   }
@@ -1787,7 +1783,7 @@ a {
     margin-left: var(--item-set-gap);
     margin-top: var(--item-set-gap);
   }
-    
+
   @media screen and (min-width: $desktop) {
     border: 1px solid rgba(238, 238, 238, 0.8);
     margin-left: 30px;
@@ -1908,4 +1904,36 @@ a {
   background: white;
   margin-top: 4px;
 }
+
+/* modal-mobile */
+
+.btn-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  width: 30px;
+  height: 30px;
+
+  background-color: #ffffff;
+
+  @include flexCenter;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+
+  cursor: pointer;
+  outline: none;
+}
+
+.close-icon {
+  fill: currentColor;
+
+  .btn-close:active &,
+  .btn-close:hover &,
+  .btn-close:focus & {
+    fill: rgba(33, 150, 243, 1);
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

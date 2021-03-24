@@ -1,0 +1,28 @@
+.btn-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  width: 30px;
+  height: 30px;
+
+  background-color: $white-text;
+
+  @include flexCenter;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+
+  cursor: pointer;
+  outline: none;
+}
+
+.close-icon {
+  fill: currentColor;
+
+  .btn-close:active &,
+  .btn-close:hover &,
+  .btn-close:focus & {
+    fill: $blue-text;
+  }
+}
