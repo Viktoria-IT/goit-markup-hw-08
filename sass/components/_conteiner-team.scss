@@ -136,6 +136,14 @@
 .social__list {
   display: flex;
   padding-left: 0;
+
+  @media screen and (min-width: $mobile) {
+    justify-content: center;
+  }
+
+  @media screen and (min-width: $tablet) {
+    justify-content: center;
+  }
 }
 
 .social__item {

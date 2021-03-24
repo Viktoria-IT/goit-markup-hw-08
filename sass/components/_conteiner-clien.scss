@@ -29,8 +29,8 @@
 }
 
 .client__list {
-  // display: flex;
-  // flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 
   @media screen and (min-width: $desktop) {
@@ -38,10 +38,6 @@
     list-style: none;
     display: flex;
     margin: 0 0 0 -30px;
-  }
-
-  @media screen and (max-width: 450px) {
-    justify-content: center;
   }
 }
 
