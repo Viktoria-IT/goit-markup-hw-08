@@ -1,18 +1,33 @@
+.menu-container {
+  position: fixed;
+  overflow-y: scroll;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 48px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: $black-text;
+  transform: translateX(100%);
+  transition: transform $time $cubik;
+}
+
+.menu-container.is-open-menu {
+  transform: translateX(0);
+}
+
 .btn-close {
   position: absolute;
   top: 8px;
   right: 8px;
-
+  background-color: $white-text;
   width: 30px;
   height: 30px;
-
-  background-color: $white-text;
-
-  @include flexCenter;
-
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-
   cursor: pointer;
   outline: none;
 }

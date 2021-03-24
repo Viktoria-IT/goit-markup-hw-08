@@ -38,7 +38,6 @@
 
   display: flex;
   flex-direction: column;
-  @include flexCenter;
 
   @media screen and (min-width: $tablet) {
     display: flex;

@@ -23,8 +23,6 @@
   flex-wrap: wrap;
 
   @media screen and (min-width: $tablet) {
-    @include flexCenter;
-
     margin-bottom: 15px;
   }
 

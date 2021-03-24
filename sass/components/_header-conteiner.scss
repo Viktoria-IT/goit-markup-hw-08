@@ -221,7 +221,7 @@
   }
 
   @media screen and (min-width: $desktop) {
-    @include flexCenter;
+    display: flex;
   }
 }
 
