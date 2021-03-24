@@ -122,21 +122,21 @@
   margin-bottom: 16px;
 }
 
-.cocial__list {
+.social__list {
   display: flex;
   padding-left: 0;
 }
 
-.cocial__item {
+.social__item {
   margin-right: 10px;
   border-radius: 50%;
 }
 
-.cocial__item:last-child {
+.social__item:last-child {
   margin-right: 0;
 }
 
-.cocial__icon {
+.social__icon {
   display: flex;
   width: 44px;
   height: 44px;
@@ -148,29 +148,29 @@
   transition-timing-function: $cubic;
 }
 
-.cocial__icon:last-child {
+.social__icon:last-child {
   margin-right: 0;
   padding: 12px;
 }
 
-.cocial__svg {
+.social__svg {
   fill: $icon-cocial;
   transition-property: fill;
   transition-duration: $time;
   transition-timing-function: $cubic;
 }
 
-.cocial__icon:focus {
+.social__icon:focus {
   background-color: $blue-text;
 }
 
-.cocial__list .cocial__item:hover .cocial__svg,
-.cocial__list .cocial__item:focus .cocial__svg {
+.social__list .social__item:hover .social__svg,
+.social__list .social__item:focus .social__svg {
   fill: $white-text;
   transition: opacity 1s, height 1s;
 }
 
-.cocial__list .cocial__icon:hover,
-.cocial__list .cocial__icon:focus {
+.social__list .social__icon:hover,
+.social__list .social__icon:focus {
   background-color: $blue-text;
 }

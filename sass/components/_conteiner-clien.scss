@@ -1,12 +1,14 @@
 .client-container {
-  padding: 60px 15px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 60px 0;
 
   @media screen and (min-width: $desktop) {
     width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 94px;
     padding-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
