@@ -2,18 +2,18 @@
   background: $background-section-one;
 }
 
-// .conteiner__footer {
-//   @media screen and (min-width: $tablet) {
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: space-around;
-//   }
+.conteiner__footer {
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 
-//   @media screen and (min-width: $desktop) {
-//     display: flex;
-//     align-items: baseline;
-//   }
-// }
+  @media screen and (min-width: $desktop) {
+    display: flex;
+    align-items: baseline;
+  }
+}
 
 .conteiner__info {
   padding: 60px 15px;
@@ -85,7 +85,7 @@
   text-align: center;
 
   @media screen and (min-width: $tablet) {
-    margin-top: 5px;
+    margin-top: 65px;
   }
 
   @media screen and (min-width: $desktop) {
