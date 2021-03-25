@@ -231,7 +231,7 @@ a {
   margin: 0;
   margin-left: 93px;
 }
-@media screen and (man-width: 767px) {
+@media screen and (max-width: 767px) {
   .navigation-list {
     display: none;
   }
