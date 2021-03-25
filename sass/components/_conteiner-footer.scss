@@ -1,6 +1,5 @@
 .footer {
   background: $background-section-one;
-  width: 1600px;
 }
 
 .conteiner__footer {
@@ -13,13 +12,11 @@
   @media screen and (min-width: $desktop) {
     display: block;
     text-align: initial;
-    // padding-left: 200px;
   }
 }
 
 .conteiner__info {
   padding: 60px 15px;
-  text-align: center;
 
   @media screen and (min-width: $desktop) {
     display: flex;
@@ -116,11 +113,11 @@
   }
 }
 
-@media screen and (min-width: $desktop) {
-  .subscribe__text {
-    margin-right: 435px;
-  }
-}
+// @media screen and (min-width: $desktop) {
+//   .subscribe__text {
+//     margin-right: 435px;
+//   }
+// }
 
 .footer__list {
   display: flex;
