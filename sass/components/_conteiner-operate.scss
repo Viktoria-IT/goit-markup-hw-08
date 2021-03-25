@@ -1,11 +1,11 @@
 .operate__container {
-  display: none;
+  width: 1200px;
+  padding: 94px 15px;
+  margin-left: auto;
+  margin-right: auto;
 
-  @media screen and (min-width: $desktop) {
-    width: 1200px;
-    padding: 94px 15px;
-    margin-left: auto;
-    margin-right: auto;
+  @media (min-width: 320px) and (max-width: 1199px) {
+    display: none;
   }
 }
 
