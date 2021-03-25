@@ -185,6 +185,7 @@ a {
 @media screen and (max-width: 767px) {
   .header__container {
     max-width: 480px;
+    display: none;
   }
 }
 @media screen and (min-width: 768px) {
@@ -227,11 +228,15 @@ a {
 }
 
 .navigation-list {
-  display: none;
   margin: 0;
   margin-left: 93px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (man-width: 767px) {
+  .navigation-list {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (min-widht: 1200px) {
   .navigation-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -342,8 +347,8 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    margin-left: auto;
+    padding-left: 0;
   }
 }
 

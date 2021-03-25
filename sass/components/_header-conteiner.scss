@@ -10,10 +10,13 @@
 
   @media screen and (max-width: 767px) {
     max-width: 480px;
+    display: none;
   }
+
   @media screen and (min-width: 768px) {
     max-width: 768px;
   }
+
   @media screen and (min-width: 1200px) {
     max-width: 1200px;
   }
@@ -48,11 +51,14 @@
 }
 
 .navigation-list {
-  display: none;
   margin: 0;
   margin-left: 93px;
 
-  @media screen and (min-width: $tablet) {
+  @media screen and (man-width: 767px) {
+    display: none;
+  }
+
+  @media (min-width: $tablet) and (min-widht: $desktop) {
     display: flex;
   }
 }
@@ -158,9 +164,10 @@
     display: flex;
     flex-direction: column;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: $desktop) {
     display: flex;
-    flex-wrap: nowrap;
+    margin-left: auto;
+    padding-left: 0;
   }
 }
 
