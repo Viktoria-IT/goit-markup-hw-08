@@ -181,7 +181,7 @@
 // подпишитесь
 
 .subscribe {
-  text-align: center;
+  margin-left: 93px;
 }
 
 @media screen and (min-width: $tablet) {
@@ -190,11 +190,11 @@
   }
 }
 
-@media screen and (min-width: $desktop) {
-  .subscribe__text {
-    margin-left: 93px;
-  }
-}
+// @media screen and (min-width: $desktop) {
+//   .subscribe__text {
+//     margin-left: 93px;
+//   }
+// }
 
 .subscribe__info {
   display: block;

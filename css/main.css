@@ -1610,15 +1610,10 @@ a {
 }
 
 .subscribe {
-  text-align: center;
+  margin-left: 93px;
 }
 
 @media screen and (min-width: 768px) {
-  .subscribe__text {
-    margin-left: 70px;
-  }
-}
-@media screen and (min-width: 1200px) {
   .subscribe__text {
     margin-left: 70px;
   }
