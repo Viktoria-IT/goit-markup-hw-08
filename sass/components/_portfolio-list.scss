@@ -27,6 +27,7 @@
   transition-timing-function: $cubic;
 
   &:not(:last-child) {
+    margin-left: 30px;
     margin-bottom: 30px;
   }
 

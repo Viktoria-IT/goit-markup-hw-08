@@ -184,18 +184,6 @@
   margin-left: 93px;
 }
 
-@media screen and (min-width: $tablet) {
-  .subscribe__text {
-    margin-left: 70px;
-  }
-}
-
-// @media screen and (min-width: $desktop) {
-//   .subscribe__text {
-//     margin-left: 93px;
-//   }
-// }
-
 .subscribe__info {
   display: block;
   margin-top: 20px;
@@ -214,7 +202,6 @@
 
 .subscribe__input {
   height: 50px;
-  min-width: 100%;
 
   margin-bottom: 20px;
   padding: 15px 16px;
@@ -226,8 +213,7 @@
   color: $pepel-text-opacity;
 
   @media screen and (min-width: $tablet) {
-    min-width: 450px;
-    margin-left: 70px;
+    width: 450px;
   }
 
   @media screen and (min-width: $desktop) {
