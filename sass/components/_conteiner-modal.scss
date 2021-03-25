@@ -22,7 +22,7 @@
 .modal {
   // display: flex;
   // flex-direction: column;
-  position: absolute;
+  // position: absolute;
   // content: '';
 
   top: 50%;
@@ -41,11 +41,12 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
-  @media screen and (max-width: 479px) {
-    min-width: 95%;
+  @media screen and (max-width: $tablet) {
+    position: absolute;
   }
 
   @media screen and (min-width: $desktop) {
+    position: absolute;
     max-width: 528px;
   }
 }
