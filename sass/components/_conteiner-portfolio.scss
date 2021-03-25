@@ -23,6 +23,7 @@
   flex-wrap: wrap;
 
   @media screen and (min-width: $tablet) {
+    justify-content: center;
     margin-bottom: 15px;
   }
 
