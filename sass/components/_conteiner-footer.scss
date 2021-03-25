@@ -1,5 +1,6 @@
 .footer {
   background: $background-section-one;
+  width: 1600px;
 }
 
 .conteiner__footer {
@@ -11,7 +12,8 @@
 
   @media screen and (min-width: $desktop) {
     display: block;
-    text-align: left;
+    text-align: initial;
+    // padding-left: 200px;
   }
 }
 
@@ -190,9 +192,20 @@
   }
 }
 
+@media screen and (min-width: $tablet) {
+  .subscribe__text {
+    margin-left: 70px;
+  }
+}
+
 .subscribe__info {
   display: block;
   margin-top: 20px;
+
+  @media screen and (min-width: $tablet) {
+    display: block;
+    align-items: center;
+  }
 
   @media screen and (min-width: $desktop) {
     margin-top: 20px;
@@ -216,6 +229,8 @@
 
   @media screen and (min-width: $tablet) {
     min-width: 450px;
+    margin-left: 166px;
+    margin-right: 152px;
   }
 
   @media screen and (min-width: $desktop) {
@@ -250,12 +265,17 @@
   letter-spacing: 0.06em;
 
   color: $white-text;
-  fill: $white-text;
+  // fill: $white-text;
 
   background: $blue-text;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+
+  @media screen and (min-width: $tablet) {
+    justify-content: center;
+    margin-left: 70px;
+  }
 
   @media screen and (min-width: $desktop) {
     display: flex;
@@ -268,7 +288,7 @@
     letter-spacing: 0.06em;
 
     color: $white-text;
-    fill: $white-text;
+    // fill: $white-text;
 
     background: $blue-text;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
