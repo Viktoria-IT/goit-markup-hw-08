@@ -3,6 +3,10 @@
 }
 
 .conteiner__footer {
+  display: block;
+  text-align: center;
+  max-width: 480px;
+
   @media screen and (min-width: $tablet) {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +89,7 @@
 
 .social__footer {
   margin-top: 60px;
+  display: block;
   text-align: center;
 
   @media screen and (min-width: $tablet) {
