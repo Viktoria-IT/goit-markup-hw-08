@@ -1618,6 +1618,11 @@ a {
     margin-left: 70px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .subscribe__text {
+    margin-left: 70px;
+  }
+}
 .subscribe__info {
   display: block;
   margin-top: 20px;

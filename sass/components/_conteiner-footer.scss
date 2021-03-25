@@ -190,6 +190,12 @@
   }
 }
 
+@media screen and (min-width: $desktop) {
+  .subscribe__text {
+    margin-left: 93px;
+  }
+}
+
 .subscribe__info {
   display: block;
   margin-top: 20px;
