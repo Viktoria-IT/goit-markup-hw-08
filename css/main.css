@@ -1380,12 +1380,12 @@ a {
 }
 @media screen and (min-width: 768px) {
   .client__link {
-    width: 768px;
+    width: 226px;
   }
 }
 @media screen and (min-width: 1200px) {
   .client__link {
-    width: 1200px;
+    width: 170px;
     margin-bottom: 0px;
   }
   .client__link:not(:first-child) {
@@ -1610,13 +1610,7 @@ a {
 }
 
 .subscribe {
-  margin-top: 60px;
   text-align: center;
-}
-@media screen and (min-width: 1200px) {
-  .subscribe {
-    margin-left: 93px;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1661,8 +1655,7 @@ a {
 @media screen and (min-width: 768px) {
   .subscribe__input {
     min-width: 450px;
-    margin-left: 166px;
-    margin-right: 152px;
+    margin-left: 70px;
   }
 }
 @media screen and (min-width: 1200px) {

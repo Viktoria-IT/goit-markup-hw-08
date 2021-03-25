@@ -181,12 +181,7 @@
 // подпишитесь
 
 .subscribe {
-  margin-top: 60px;
   text-align: center;
-
-  @media screen and (min-width: $desktop) {
-    margin-left: 93px;
-  }
 }
 
 @media screen and (min-width: $tablet) {
@@ -226,8 +221,7 @@
 
   @media screen and (min-width: $tablet) {
     min-width: 450px;
-    margin-left: 166px;
-    margin-right: 152px;
+    margin-left: 70px;
   }
 
   @media screen and (min-width: $desktop) {
