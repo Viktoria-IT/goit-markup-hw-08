@@ -199,6 +199,10 @@
   @media screen and (max-width: $tablet) {
     margin-bottom: 10px;
   }
+
+  @media screen and (max-width: $desktop) {
+    margin-top: 32px;
+  }
 }
 
 .heder__item:not(:last-child) {

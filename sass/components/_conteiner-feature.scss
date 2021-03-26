@@ -7,11 +7,11 @@
 // }
 
 .feature__container {
-  padding: 60px 15px;
+  padding: 60px 0;
   margin-left: auto;
   margin-right: auto;
 
-  min-width: 350px;
+  min-width: 320px;
   max-width: 480px;
 
   @media screen and (min-width: $tablet) {
@@ -33,12 +33,14 @@
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-  // margin-left: -30px;
+  margin-left: -30px;
 
   @media screen and (min-width: $tablet) {
+    width: 768px;
     display: flex;
     flex-wrap: wrap;
-    margin: -15px;
+    justify-content: space-between;
+    // margin: -15px;
   }
 
   @media screen and (min-width: $desktop) {
@@ -52,9 +54,13 @@
 }
 
 .feature__item {
+  margin-bottom: 30px;
+
   @media screen and (min-width: $tablet) {
-    width: calc((100% - 2 * 30px) / 2);
+    // width: calc((100% - 2 * 30px) / 2);
+    flex-basis: calc((100% - (2 * 30px)) / 2);
     margin: 15px;
+    max-width: 354px;
   }
 
   @media screen and (min-width: $desktop) {
@@ -111,7 +117,7 @@
 
 .feature__icon {
   height: 120px;
-  width: 450px;
+  width: 100%;
   background-color: $icon-background;
   padding: 25px 100px;
   margin-bottom: 30px;
