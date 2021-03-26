@@ -2158,11 +2158,6 @@ a {
   transition: transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 }
-@media screen and (mix-width: 767px) {
-  .menu-container {
-    display: none;
-  }
-}
 
 .menu-container.is-open {
   -webkit-transform: translateX(0);
