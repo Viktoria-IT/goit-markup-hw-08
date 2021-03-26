@@ -53,12 +53,13 @@
             </ul>
 
             <!--кнопка меню для моб.версии-->
-
-            <button class="button-menu js-open-menu" aria-expanded="false" aria-controls="mobile-menu" type="button">
+            <div class="container-menu">
+            <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu" type="button">
                 <svg class="menu-icon" width="24" height="16">
                     <use href="./images/iconssvg/symbol-defs.svg#icon-menu_24px" />
                 </svg>
             </button>
+            </div>
 
         </div>
 
@@ -557,7 +558,7 @@
     <!-- модалка на мобильной версии -->
     
     <div class="menu-container js-menu-container" id="mobile-menu">
-        <button class="button-menu js-close-menu" type="button">
+        <button class="menu-toggle js-close-menu" type="button">
             <svg class="close-icon" width="19" height="19">
                 <use href="./images/iconssvg/symbol-defs.svg#icon-close_24px" />
             </svg>

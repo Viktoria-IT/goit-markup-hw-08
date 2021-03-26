@@ -199,7 +199,7 @@
 
 .header__item {
   @media screen and (max-width: $tablet) {
-    margin-bottom: 10px;
+    display: block;
   }
 
   @media screen and (max-width: $desktop) {
@@ -207,9 +207,9 @@
   }
 }
 
-.heder__item:not(:last-child) {
-  margin-bottom: 10px;
-}
+// .heder__item:not(:last-child) {
+//   margin-bottom: 10px;
+// }
 
 .header__icon {
   margin-right: 10px;
