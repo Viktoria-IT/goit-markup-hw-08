@@ -181,6 +181,8 @@ a {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  min-width: 320px;
+  max-width: 480px;
 }
 @media screen and (max-width: 767px) {
   .header__container {
@@ -971,7 +973,6 @@ a {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-  margin-left: -30px;
 }
 @media screen and (min-width: 768px) {
   .feature-card {
@@ -1537,6 +1538,7 @@ a {
   max-width: 480px;
   min-width: 320px;
   text-align: center;
+  margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
   .conteiner__info {
@@ -2235,6 +2237,11 @@ a {
           flex-direction: column;
   height: 100%;
   width: 100%;
+}
+@media (min-widht: 767px) {
+  .mobile-menu {
+    display: none;
+  }
 }
 
 .mobile-list {
