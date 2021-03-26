@@ -3,6 +3,7 @@
 }
 
 .conteiner__footer {
+  max-width: 480px;
   text-align: center;
 
   @media screen and (min-width: $tablet) {
