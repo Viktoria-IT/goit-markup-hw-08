@@ -19,11 +19,12 @@
 
     <!-- Шапка-->
     <header class="header">
-        <div class="container header__container">
-
-            <a class="logo header__logo">Web<span class="logo__text">Studio</span></a>
+        <div class="container header__container">        
 
             <nav class="navigation">
+
+                <a class="logo header__logo">Web<span class="logo__text">Studio</span></a>
+
                 <ul class="navigation-list ">
                     <li class="navigation__item"><a href="" class="navigation__links">Студия</a></li>
                     <li class="navigation__item"><a href="./portfolio.html" class="navigation__link">Портфолио</a></li>
@@ -37,7 +38,7 @@
 
                 <li class="header__item">
                     <a href="mailto:info@example.com" class="header__link" aria-label="envelope">
-                        <svg class="header__icon" width="16" height="12">
+                        <svg class="header__icon email" width="16" height="12">
                             <use href="./images/iconssvg/symbol-defs.svg#icon-envelope-hover"></use>
                         </svg>
                         info@devstudio.com</a>
@@ -45,7 +46,7 @@
 
                 <li class="header__item">
                     <a href="tel:+380961111111" class="header__link" aria-label="smartphone">
-                        <svg class="header__icon" width="10" height="16">
+                        <svg class="header__icon phone" width="10" height="16">
                             <use href="./images/iconssvg/symbol-defs.svg#icon-smartphone"></use>
                         </svg>
                         +38 096 111 11 11</a>
@@ -53,13 +54,11 @@
             </ul>
 
             <!--кнопка меню для моб.версии-->
-            <div class="container-menu">
             <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu" type="button">
-                <svg class="menu-icon" width="24" height="16">
+                <svg class="menu-icon" width="40" height="40">
                     <use href="./images/iconssvg/symbol-defs.svg#icon-menu_24px" />
                 </svg>
             </button>
-            </div>
 
         </div>
 
@@ -557,17 +556,17 @@
 
     <!-- модалка на мобильной версии -->
     
-    <div class="menu-container js-menu-container" id="mobile-menu">
+    <div class="menu-container menu-container--mobile js-menu-container" id="mobile-menu">
         <button class="menu-toggle js-close-menu" type="button">
-            <svg class="close-icon" width="19" height="19">
+            <svg class="close-icon" width="40" height="40">
                 <use href="./images/iconssvg/symbol-defs.svg#icon-close_24px" />
             </svg>
         </button>
 
-    <div class="mobile-menu">
+    <div class="mobile__menu">
         <ul class="mobile__list">
             <li class="mobile__item">
-                <a href="./index.html" class="links">Студия</a>
+                <a href="./index.html" class=" link links">Студия</a>
             </li>
     
             <li class="mobile__item">
