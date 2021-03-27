@@ -3,22 +3,30 @@
 }
 
 .conteiner__footer {
+  max-width: 1200px;
   min-width: 320px;
-  max-width: 480px;
-  text-align: center;
+  height: 252px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  // @media screen and (min-width: $mobile) {
+  //   text-align: center;
+  // }
 
   @media screen and (min-width: $tablet) {
     display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
+
     text-align: center;
     flex-wrap: wrap;
     justify-content: space-around;
   }
 
   @media screen and (min-width: $desktop) {
-    display: block;
-    text-align: initial;
+    display: flex;
+    // height: 252px;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    text-align: start;
   }
 }
 
@@ -43,6 +51,14 @@
     align-items: baseline;
     margin: auto;
     max-width: 1200px;
+  }
+}
+
+.container-address {
+  // margin-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
   }
 }
 
