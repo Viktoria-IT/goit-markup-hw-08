@@ -3,6 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
+    padding-left: 15px;
     margin-left: calc(-1 * 30px);
     margin-top: calc(-1 * 30px);
   }
@@ -18,29 +19,18 @@
 }
 
 .portfolio__item {
-  width: 100%;
-  border: 1px solid $border-card;
+  border: 1px solid $border;
   margin-bottom: 30px;
-
-  transition-property: box-shadow;
-  transition-duration: $time;
-  transition-timing-function: $cubic;
-
-  // &:not(:last-child) {
-  //   margin-bottom: 30px;
-  // }
+  margin-left: auto;
+  width: fit-content;
 
   @media screen and (min-width: $tablet) {
     width: calc((100% - 2 * 30px) / 2);
     margin: 15px;
   }
 
-  @media screen and (min-width: $desktop) {
-    border: 1px solid $border-card;
-    margin-left: 30px;
-    margin-top: 30px;
-    flex-basis: calc(100% / 3 - 30px);
-    text-decoration: none;
+  @media screen and(min-width: 1200px) {
+    flex-basis: calc((100% - 90px) / 3);
   }
 }
 
@@ -69,8 +59,8 @@
   position: relative;
   width: 450px;
   height: 294px;
-  margin-left: auto;
-  margin-right: auto;
+  // margin-left: auto;
+  // margin-right: auto;
   background-color: $hover-overlay;
   overflow: hidden;
 
