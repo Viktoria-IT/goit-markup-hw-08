@@ -1,5 +1,5 @@
 .client-container {
-  max-width: 1200px;
+  // max-width: 1200px;
   min-width: 320px;
   padding: 60px 15px;
   margin: 0 auto;
@@ -69,8 +69,9 @@
     border-radius: 4px;
   }
 
-  @media screen and (min-width: $tablet) {
+  @media screen and (min-width: 768px) {
     width: 226px;
+    text-align: center;
   }
 
   @media screen and (min-width: $desktop) {
