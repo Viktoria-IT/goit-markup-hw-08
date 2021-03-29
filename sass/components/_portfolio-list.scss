@@ -68,18 +68,18 @@
     position: relative;
     width: 354px;
     height: 280px;
-    margin-left: auto;
-    margin-right: auto;
+    // margin-left: auto;
+    // margin-right: auto;
     background-color: $hover-overlay;
     overflow: hidden;
   }
 
-  @media screen and (min-width: $desktop) {
+  @media screen and (min-width: 1200px) {
     position: relative;
-    width: 368px;
+    width: 370px;
     height: 292px;
-    margin-left: auto;
-    margin-right: auto;
+    // margin-left: auto;
+    // margin-right: auto;
     background-color: $hover-overlay;
     overflow: hidden;
   }

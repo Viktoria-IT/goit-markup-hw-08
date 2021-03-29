@@ -2096,8 +2096,6 @@ a {
     position: relative;
     width: 354px;
     height: 280px;
-    margin-left: auto;
-    margin-right: auto;
     background-color: rgba(33, 150, 243, 0.9);
     overflow: hidden;
   }
@@ -2105,10 +2103,8 @@ a {
 @media screen and (min-width: 1200px) {
   .portfolio__tumb {
     position: relative;
-    width: 368px;
+    width: 370px;
     height: 292px;
-    margin-left: auto;
-    margin-right: auto;
     background-color: rgba(33, 150, 243, 0.9);
     overflow: hidden;
   }
