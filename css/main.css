@@ -1563,6 +1563,7 @@ a {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  margin-bottom: 20px;
 }
 
 .logo__label {
@@ -1615,7 +1616,6 @@ a {
 }
 
 .address__link {
-  margin-top: 20px;
   margin-bottom: 0;
 }
 @media screen and (min-width: 1200px) {
@@ -1747,7 +1747,7 @@ a {
 }
 
 .subscribe {
-  padding-top: 60px;
+  margin-top: 60px;
   text-align: center;
 }
 @media screen and (min-widht: 480px) {
