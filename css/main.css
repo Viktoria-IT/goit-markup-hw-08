@@ -1896,11 +1896,6 @@ a {
   display: none;
 }
 
-.portfolio {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
 .portfolio-conteiner {
   padding-left: 15px;
   padding-right: 15px;
@@ -1910,6 +1905,8 @@ a {
 @media (min-width: 480px) and (max-width: 767px) {
   .portfolio-conteiner {
     max-width: 480px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1918,6 +1915,8 @@ a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1936,6 +1935,7 @@ a {
 }
 @media (min-width: 480px) and (max-width: 767px) {
   .filters__list {
+    max-width: 480px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1943,9 +1943,12 @@ a {
         flex-wrap: wrap;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .filters__list {
-    width: 768px;
+    max-width: 768px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1956,7 +1959,6 @@ a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-top: 50px;
   }
 }
 
@@ -2029,15 +2031,13 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .portfolio__list {
+    width: 1200px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin-left: -30px;
-    margin-top: 30px;
-    margin-bottom: 0;
-    padding: 0;
   }
 }
 
@@ -2054,14 +2054,15 @@ a {
     -ms-flex-preferred-size: calc((100% - 2 * 30px) / 2);
         flex-basis: calc((100% - 2 * 30px) / 2);
     margin-left: 30px;
-    margin-top: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
   .portfolio__item {
     width: 370px;
-    -ms-flex-preferred-size: calc((100% - 90px) / 3);
-        flex-basis: calc((100% - 90px) / 3);
+    display: block;
+    -ms-flex-preferred-size: calc(100% / 3 - 30px);
+        flex-basis: calc(100% / 3 - 30px);
+    margin-left: 30px;
   }
 }
 
@@ -2112,7 +2113,6 @@ a {
   .portfolio__tumb {
     position: relative;
     width: 370px;
-    height: 292px;
     background-color: rgba(33, 150, 243, 0.9);
     overflow: hidden;
   }
