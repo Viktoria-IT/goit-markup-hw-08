@@ -12,22 +12,7 @@
 
   max-width: 1200px;
   min-width: 320px;
-  // padding: 60px 15px;
   margin: 0 auto;
-
-  // @media screen and (min-width: $tablet) {
-  //   display: flex;
-
-  //   // text-align: center;
-  //   flex-wrap: wrap;
-  //   justify-content: space-around;
-  // }
-
-  // @media screen and (min-width: $desktop) {
-  //   display: flex;
-  //   align-items: baseline;
-  //   flex-wrap: nowrap;
-  // }
 }
 
 .conteiner__info {
@@ -39,10 +24,6 @@
 
   @media screen and (min-width: $tablet) {
     max-width: 768px;
-
-    // display: flex;
-
-    // justify-content: space-around;
   }
 
   @media screen and (min-width: $desktop) {
@@ -53,18 +34,6 @@
     text-align: initial;
   }
 }
-
-// .container-address {
-//   // margin-bottom: 60px;
-
-//   @media screen and (min-width: 768px) {
-//     text-align: initial;
-//   }
-
-//   @media screen and (min-width: 1200px) {
-//     margin-right: 70px;
-//   }
-// }
 
 .footer__logo {
   color: $blue-text;
@@ -91,6 +60,7 @@
     display: flex;
     // margin-bottom: 60px;
     justify-content: center;
+    align-items: baseline;
   }
 }
 
@@ -103,10 +73,6 @@
   font-size: 14px;
   line-height: 1.712;
   letter-spacing: 0.03em;
-
-  // @media screen and (min-width: 1200px) {
-  //   margin-right: 15px;
-  // }
 }
 
 .link {
@@ -133,12 +99,6 @@
 }
 
 .address__info {
-  // @media screen and (min-width: 768px) {
-  //   display: flex;
-  //   flex-direction: column;
-  //   // margin-top: 20px;
-  // }
-
   background: $background-section-one;
   color: $footer-adress;
   font-style: normal;
@@ -157,7 +117,7 @@
   text-align: center;
 
   @media screen and (min-width: $tablet) {
-    margin-top: 15px;
+    // margin-top: 15px;
     margin-left: 165px;
   }
 

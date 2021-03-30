@@ -48,12 +48,16 @@
   }
 }
 
+.client__item {
+  margin-top: 30px;
+}
+
 .client__link {
   display: block;
   width: 100%;
   height: 90px;
   text-decoration: none;
-  margin-bottom: 30px;
+  // margin-bottom: 30px;
   border: 1px solid $icon-cocial;
   border-radius: 4px;
 

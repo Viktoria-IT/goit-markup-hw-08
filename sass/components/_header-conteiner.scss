@@ -18,7 +18,7 @@
 
 .header__container {
   display: flex;
-  // position: relative;
+  position: relative;
   align-items: center;
   // width: 480px;
   min-width: 320px;
@@ -226,10 +226,17 @@
 //   margin-right: 30px;
 // }
 
+.heder__item {
+  @media (min-width: 768px) {
+    padding-bottom: 21px;
+  }
+}
+
 .header__link {
-  align-items: flex-start;
-  padding-top: 21px;
-  padding-bottom: 21px;
+  display: flex;
+  align-items: center;
+  // padding-top: 21px;
+  // padding-bottom: 21px;
   font-style: normal;
   font-weight: 500;
   text-decoration: none;
