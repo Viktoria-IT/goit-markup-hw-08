@@ -1909,12 +1909,20 @@ a {
 }
 @media (min-width: 480px) and (max-width: 767px) {
   .portfolio-conteiner {
-    width: 480px;
+    max-width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .portfolio-conteiner {
+    max-width: 768px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 @media screen and (min-width: 1200px) {
   .portfolio-conteiner {
-    padding: 94px 15px;
+    padding: 94px 0;
     width: 1200px;
   }
 }
@@ -1937,7 +1945,7 @@ a {
 }
 @media screen and (max-width: 768px) {
   .filters__list {
-    margin-bottom: 30px;
+    width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1948,12 +1956,14 @@ a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-bottom: 50px;
+    margin-top: 50px;
   }
 }
 
-.filters__item {
-  margin-bottom: 15px;
+@media (min-width: 480px) and (max-width: 767px) {
+  .filters__item {
+    margin-top: 15px;
+  }
 }
 
 .filters__list > .filters__item:not(:last-child) {
@@ -2014,10 +2024,7 @@ a {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin: -15px;
-    padding-left: 15px;
-    margin-left: calc(-1 * 30px);
-    margin-top: calc(-1 * 30px);
+    margin-left: -15px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -2036,20 +2043,18 @@ a {
 
 .portfolio__item {
   border: 1px solid #ececec;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 30px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
 }
 @media screen and (min-width: 768px) {
   .portfolio__item {
-    width: calc((100% - 2 * 30px) / 2);
-    margin: 15px;
+    max-width: 370px;
+    -ms-flex-preferred-size: calc((100% - 2 * 30px) / 2);
+        flex-basis: calc((100% - 2 * 30px) / 2);
+    margin-left: 30px;
+    margin-top: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -2091,18 +2096,14 @@ a {
 
 .portfolio__tumb {
   position: relative;
-  max-width: 450px;
-  height: 294px;
+  height: 292px;
   background-color: rgba(33, 150, 243, 0.9);
   overflow: hidden;
 }
 @media screen and (min-width: 768px) {
   .portfolio__tumb {
     position: relative;
-    width: 100%;
     height: 100%;
-    margin-left: auto;
-    margin-right: auto;
     background-color: rgba(33, 150, 243, 0.9);
     overflow: hidden;
   }
