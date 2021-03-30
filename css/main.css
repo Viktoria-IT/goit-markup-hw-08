@@ -1899,6 +1899,7 @@ a {
 .portfolio-conteiner {
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
 }
 @media (min-width: 480px) and (max-width: 767px) {
   .portfolio-conteiner {
